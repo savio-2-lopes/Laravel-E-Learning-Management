@@ -18,10 +18,10 @@ services:
         image: mysql:5.7
         restart: always
         environment:
-            MYSQL_ROOT_PASSWORD: MYSQL_ROOT_PASSWORD
-            MYSQL_DATABASE: DB_LARAVEL
-            MYSQL_USER: MYSQL_USER
-            MYSQL_PASSWORD: MYSQL_PASSWORD
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: db-e-learning
+            MYSQL_USER: mysql-user
+            MYSQL_PASSWORD: mysql-password
         ports:
             - "3306:3306"
 
